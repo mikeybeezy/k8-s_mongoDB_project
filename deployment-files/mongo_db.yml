@@ -40,11 +40,11 @@ metadata:
   namespace: mongo-app
 spec:
   selector:
-    app:  mongodb
+    app: mongodb
   ports:
-  - name:  TCP
-    port:  27017
-    targetPort:  27017
+  - name: TCP
+    port: 27017
+    targetPort: 27017
 
 
     
