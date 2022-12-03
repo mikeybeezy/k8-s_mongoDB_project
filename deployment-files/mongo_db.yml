@@ -42,7 +42,7 @@ spec:
   selector:
     app: mongodb
   ports:
-  - name: tcp
+  - protocol: TCP
     port: 27017
     targetPort: 27017
 
