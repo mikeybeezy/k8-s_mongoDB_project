@@ -7,7 +7,7 @@ pipeline {
         stage('Deploy to kubernetes'){
             steps{
                 script{
-                    sh 'kubectl delete -f deployment-files'
+                    sh 'kubectl apply -f deployment-files'
 
 
                 }
